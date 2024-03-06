@@ -1,0 +1,20 @@
+{
+  "name": "clean_directory",
+  "version": "1.0.0",
+  "description": "A simple node.js script to clean up a directory.",
+  "author": "Joel M. Boada <jmboada30@gmail.com>",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-schedule": "^2.1.1"
+  }
+}
